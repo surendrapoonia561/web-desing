@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+
+.about{
+    height: 600px;
+    background-image: url(background-01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 50px 50px;
+}
+
+.right ul{
+    display: flex;
+    list-style-type: none;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.right li{
+    padding-right: 50px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.left img {
+    margin-right: 10px;
+}
+.left h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+#about{
+    border-bottom: 2px solid white;
+}
+
+
+
+
+.second{
+    padding-bottom: 60px;
+ } 
+
+#wc{
+    text-align: center;
+    height: 44px;
+    color: #000000;
+    font: 32px;
+    font-weight: 400;
+    margin: 60px 0px 30px;
+    padding: 0px 15px;
+}
+
+#pera{
+    text-align: center;
+    width: 655px;
+    height: 91.8px;
+    font-size: 30;
+    color: #626364;
+    font: 17px;
+    padding: 0px 15px;
+    margin-left: 430px;
+}
+
+.logo ul{
+    display: flex;
+    list-style-type: none;
+    /* width: 610px; */
+    height: 55px;
+    font: 17px;
+}
+.logo img{
+    height: 20.8px;
+    width: 20.8px;
+    margin: 0px 20px;
+}
+
+.abcd{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+
+.girls{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.ggg{
+    width: 160px;
+    height: 240px;
+    margin-left: 80px;
+}
+.data{
+    height: 226.2px;
+    font: 17px;
+    padding: 0px 20px;
+    color: #000000;
+}
+.blue h1{
+    height: 34.4px;
+    color: #0099CC;
+    font: 25.6px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.red h2{
+    height: 30.6px;
+    color: #CC3399;
+    font: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.p{
+    width: 340px;
+    height: 61.2px;
+    color: #626364;
+    font: 17px;
+    margin-bottom: 20px;
+}
+
+.hard{
+    height: 300px;
+    background-image: url(about-05.jpg\ new.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 50px 100px 50px;
+}
+
+.about1 img{
+    width: 68px;
+    height: 68px;
+}
+.about1 p{
+    width: 300px;
+    height: 57.6px;
+    color: #626364;
+    margin: 70px 0px;
+}
+.button1{
+    width: 141.03px;
+    height: 41.6px;
+    font: 16px;
+    color: #FFFFFF;
+    background-color: #2D99CC;
+    padding: 10px 30px;
+}
+.button2{
+    width: 141.03px;
+    height: 41.6px;
+    color: #FFFFFF;
+    font: 16px;
+    background-color: #319966;
+    padding: 10px 30px;
+}
+.button3{
+    width: 141.03px;
+    height: 41.6px;
+    color: #FFFFFF;
+    font: 16px;
+    background-color: #993332;
+    padding: 10px 30px;
+}
+.about1 button{
+    border-style: none;
+}
+.button1:hover{
+    background-color: #156887;
+}
+.button2:hover{
+    background-color: #13824c;
+}
+.button3:hover{
+    background-color: #841b1a;
+}
+.about123{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+
+.menu img{
+    height: 320px;
+    width: 650px;
+    padding: 0px 15px;
+}
+.rest h2{
+    width: 460px;
+    height: 34.4px;
+    color: #1A6692;
+    margin-bottom: 30px;
+    font: 17px;
+    font-weight: 400;
+}
+.rest{
+    margin-left: 35px;
+}
+.aa{
+    width: 460px;
+    height: 122.4px;
+    color: #626364;
+    font: 17px;
+    margin-bottom: 20px;
+}
+.bb{
+    width: 460px;
+    height: 153px;
+    color: #626364;
+    font: 17px;
+}
+.history{
+    display: flex;
+    margin-left: 50px;
+}
+.end{
+    text-align: center;
+    color: #626364;
+    font: 17px;
+    margin-top: 40px;
+    padding: 25px 15px;
+}
+
+

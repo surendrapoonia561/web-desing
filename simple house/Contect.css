@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+
+.about{
+    height: 600px;
+    background-image: url(background-01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 50px 50px;
+}
+
+.right ul{
+    display: flex;
+    list-style-type: none;
+}
+.right a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.right li{
+    padding-right: 50px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+.left img {
+    margin-right: 10px;
+}
+.left h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+#contact{
+    border-bottom: 2px solid white;
+}
+
+
+
+
+.second{
+    padding-bottom: 60px;
+ } 
+
+#wc{
+    text-align: center;
+    height: 44px;
+    color: #000000;
+    font: 32px;
+    font-weight: 400;
+    margin: 60px 0px 30px;
+    padding: 0px 15px;
+}
+
+#pera{
+    text-align: center;
+    width: 655px;
+    height: 91.8px;
+    font-size: 30;
+    color: #626364;
+    font: 17px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.address1{
+    height: 356.6px;
+    width: 310px;
+    color: #000000;
+    font: 17px;
+    padding: 0px 20px;
+}
+.name{
+    padding: 6px 12px 6px 12px;
+    background-color: #FFFFFF;
+    height: 39.2px;
+    width: 310px;
+}
+.message{
+    padding: 6px 12px 6px 12px;
+    background-color: #FFFFFF;
+    height: 190.8px;
+    width: 310px;
+}
+.address1 ul{
+    list-style-type: none;
+}
+.send{
+    width: 310px;
+    height: 38.4px;
+    color: #000000;
+    font: 17px;
+    margin-bottom: 30px;
+}
+.send button{
+    height: 38.4px;
+    width: 97.34px;
+    color: #FFFFFF;
+    background-color: #319966;
+    font: 16px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-left: 172px;
+    border-style: none;
+}
+.send button:hover{
+    background-color: #167547;
+}
+
+.address2{
+    width: 315px;
+    height: 367.6px;
+    font: 17px;
+}
+.a1 h2{
+     width: 315px;
+     height: 34.4px;
+     color: #319966;
+     font: 25.6px;
+     font-weight: 400;
+     margin-bottom: 30px;
+}
+.a1 p{
+    width: 315px;
+    height: 91.8px;
+    color: #626364;
+    font: 17px;
+    margin-bottom: 50px;
+}
+.a2{
+    display: flex;
+    width: 150.15px;
+    height: 23.2px;
+    color: #626364;
+    margin-bottom: 25px;
+}
+.a2 p{
+    padding-left: 20px;
+}
+.a3{
+    display: flex;
+    width: 183px;
+    height: 23.2px;
+    color: #626364;
+    font: 17px;
+    margin-bottom: 25px;
+}
+.a3 p{
+    padding-left: 20px;
+}
+.a4{
+    width: 315px;
+    height: 55px;
+    font: 17px;
+    margin-top: 10px;
+}
+.a4 img{
+    color: #626364;
+    width: 20.8px;
+    height: 20.8px;
+    margin-left: 20px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 30px 0px 30px;
+}
+
+.mape{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 60%;
+    margin: 0px 60px;
+    padding: 50px 10px 50px 10px;
+}
+
+.faqs{
+    text-align: center;
+}
+.faqs h1{
+    font: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.faqs p{
+    text-align: center;
+    color: #626364;
+    font: 17px;
+}
+.paraaa{
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.box{
+    text-align: center;
+    color: #000000;
+    font: 17px;
+    padding-top: 40px;
+}
+.box button{
+    text-align: left;
+    width: 600px;
+    color: #999999;
+    background-color: #FFFFFF;
+    border-color: #999999;
+    font: 19.2px;
+    margin: 17px 0px;
+    padding: 10px 20px 6px 20px;
+}
+.box button:hover{
+    color: rgb(31, 196, 196);
+}
+.final{
+    text-align: center;
+    color: #000000;
+    font: 17px;
+    margin-top: 40px;
+    padding: 25px 15px;
+}
